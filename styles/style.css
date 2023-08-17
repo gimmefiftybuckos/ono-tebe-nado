@@ -4,7 +4,7 @@
     justify-content: space-between;
     max-width: 1440px;
     margin: auto;
-    padding: 92px 50px 96px 50px;
+    padding: 92px 50px 99px 50px;
 }
 
 .header__menu {
@@ -48,12 +48,9 @@
 .header__logo-image {
     display: block;
     background-repeat: no-repeat;
-    min-height: 105px;
+    max-width: 137px;
+    max-height: 105px;
     background-image: url(../images/logo-black.svg);
-}
-
-.header__logo-image:hover {
-    background-image: url(../images/logo-yellow.svg);
 }
 
 .address {
@@ -202,7 +199,6 @@
     display: block;
     text-decoration: none;
     height: 100%;
-    
 }
 
 .card {
